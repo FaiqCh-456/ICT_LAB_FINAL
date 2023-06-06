@@ -1,0 +1,150 @@
+h1{
+color: red;
+display: flex;
+position: absolute;
+text-align: center;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./images/slide3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10%;
+    height: 60px;
+
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    color: rgb(5, 5, 5);
+    
+  }
+  
+  .logo img {
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .logo h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav {
+    margin-bottom: 10%;
+    background-color: #f2f2f2;
+    display: flex;
+    width: 100%;
+   height: 110px;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    margin-left: 50%;
+    padding: 0;
+    font-size:small;
+    
+  }
+  
+  nav li {
+    list-style: none;
+    margin: 10px;
+    
+  }
+  
+  nav a {
+    font-size: 1.5em;
+    display: flex;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #333;
+  }
+  .toi {
+    position: relative;
+    text-align: center;
+    color:black;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    opacity: 50%;
+  }
+
+
+  section h2{
+    text-align: center;
+  }
+  section h3{
+    text-align: center;
+
+  }
+  .container1{
+    width: 50%;
+    height: 50vh;
+  margin-left: 25%;
+  flex-direction: row;
+    }
+   
+  
+    .big {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .box {
+      width: 80%;
+      height: 200px;
+      border: 1px solid #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+    }
+    
+    .box img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    
+    .box-1 {
+      background-color: #50c12e;
+    }
+    
+    .box-2 {
+      background-color: #173ad9;
+    }
+    
+    .box-3 {
+      background-color: #e01a1a;
+    }
+    
+ 
+.img {
+  display: flex;
+}
+
+.nice{
+  flex: 33.33%;
+  padding: 5px;
+}
